@@ -1,4 +1,4 @@
-# Katana Strike
+# Gothat X
 
 ![GitHub license](https://img.shields.io/github/license/Shankara-run/gothatx)
 ![GitHub stars](https://img.shields.io/github/stars/Shankara-run/gothatx?style=social)
@@ -6,7 +6,7 @@
 
 A browser-based stroke accuracy game that challenges your precision and timing. Mimic sword cut strokes within a tight time limit to achieve high scores.
 
-![Gameplay Screenshot](screenshots/gameplay.png)
+![Gameplay Screenshot](screenshots/strike.png)
 
 ## How to Play
 
@@ -56,8 +56,18 @@ python3 -m http.server 8000
 gothatx/
 ├── katana-strike.html    # Main game file (standalone)
 ├── SPEC.md               # Game specification and mechanics
-└── screenshots/          # Gameplay screenshots (optional)
+├── README.md             # This file
+├── .gitignore            # Git ignore rules
+└── screenshots/          # Gameplay screenshots
 ```
+
+## Screenshots
+
+| Start / Gameplay | Scorecard |
+|---|---|
+| ![Gameplay](screenshots/strike.png) | ![Scorecard](screenshots/scorecard.png) |
+
+> Add more screenshots to the `screenshots/` folder. The table above updates automatically when pushed.
 
 ## Development
 
